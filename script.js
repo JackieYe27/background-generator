@@ -30,7 +30,7 @@ function createRandomButton() {
     button.addEventListener("click", setRandomColors);
 };
 
-
+// changes the color
 function changeColor() {
     gradient.style.background = "linear-gradient(to right, " + rColor.value + ", " + lColor.value + ")";
 
